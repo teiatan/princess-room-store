@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/princess-room-store/static/css/main.073c9b0a.css",
-    "main.js": "/princess-room-store/static/js/main.80ab4ecc.js",
-    "static/js/787.e75eb3f3.chunk.js": "/princess-room-store/static/js/787.e75eb3f3.chunk.js",
-    "static/media/logo.svg": "/princess-room-store/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/princess-room-store/static/css/main.e6c13ad2.css",
+    "main.js": "/princess-room-store/static/js/main.6837f2b7.js",
     "index.html": "/princess-room-store/index.html",
-    "main.073c9b0a.css.map": "/princess-room-store/static/css/main.073c9b0a.css.map",
-    "main.80ab4ecc.js.map": "/princess-room-store/static/js/main.80ab4ecc.js.map",
-    "787.e75eb3f3.chunk.js.map": "/princess-room-store/static/js/787.e75eb3f3.chunk.js.map"
+    "main.e6c13ad2.css.map": "/princess-room-store/static/css/main.e6c13ad2.css.map",
+    "main.6837f2b7.js.map": "/princess-room-store/static/js/main.6837f2b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.80ab4ecc.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6837f2b7.js"
   ]
 }
