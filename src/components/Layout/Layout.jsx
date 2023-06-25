@@ -1,4 +1,6 @@
 import { Navigate, Outlet, useLocation } from "react-router-dom";
+import { Header } from "../Header/Header";
+import { Footer } from "../Footer/Footer";
 
 export function Layout() {
 
@@ -7,11 +9,11 @@ export function Layout() {
   return (
     <div>
       {willRedirect && <Navigate to={`/products`} />}
-      <header>Header</header>
+      <header><Header /></header>
       <main>
         <Outlet />
       </main>
-      <footer>Footer</footer>
+      <footer><Footer /></footer>
     </div>
   );
 }
