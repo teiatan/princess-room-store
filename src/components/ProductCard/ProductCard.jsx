@@ -1,5 +1,11 @@
-export const ProductCard = () => {
+import { Container, ImageContainer, Name, Price } from "./ProductCard.styled"
+
+export const ProductCard = ({ id, name, price, categoryName }) => {
     return (
-        <div>ProductCard</div>
+        <Container to={`/products/${id}`}>
+            <ImageContainer></ImageContainer>
+            <Name>{name}</Name>
+            <Price>{price}грн</Price>
+        </Container>
     )
 }
