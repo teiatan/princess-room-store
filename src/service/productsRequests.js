@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+axios.defaults.baseURL = 'https://cors-proxy.fringe.zone/http://54.167.99.119:8080/';
+
 export async function getAllProducts() {
-    const { data } = await axios.get(`products`);
+    const { data } = await axios.get(`https://cors-proxy.fringe.zone/http://54.167.99.119:8080/products`);
     return data;
 };
 
