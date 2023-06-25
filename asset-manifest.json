@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/princess-room-store/static/css/main.e6c13ad2.css",
-    "main.js": "/princess-room-store/static/js/main.eaa212cc.js",
+    "main.js": "/princess-room-store/static/js/main.95e4dde6.js",
     "index.html": "/princess-room-store/index.html",
     "main.e6c13ad2.css.map": "/princess-room-store/static/css/main.e6c13ad2.css.map",
-    "main.eaa212cc.js.map": "/princess-room-store/static/js/main.eaa212cc.js.map"
+    "main.95e4dde6.js.map": "/princess-room-store/static/js/main.95e4dde6.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.eaa212cc.js"
+    "static/js/main.95e4dde6.js"
   ]
 }
