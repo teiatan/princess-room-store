@@ -1,6 +1,12 @@
+import { ProductsList } from "components/ProductsList/ProductsList";
+
 function ProductsListPage() {
     return (
-        <h1>ProductsListPage</h1>
+        <>
+            <ProductsList
+                title="Усі товари"
+            />
+        </>
     )
 };
 
