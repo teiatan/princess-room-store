@@ -18,7 +18,7 @@ export async function addNewProduct({name, price, categoryName}) {
 };
 
 export async function getProductById(id) {
-    const { data } = await axios.get(`products/${id}`);
+    const { data } = await axios.get(`https://cors-proxy.fringe.zone/http://54.167.99.119:8080/products/${id}`);
     return data;
 };
 
