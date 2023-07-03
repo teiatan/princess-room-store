@@ -12,9 +12,9 @@ export const ContainerHeader = styled.div`
 
 export const Catalog = styled.div`
   cursor: pointer;
-  font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;  
 `;
+
 
 export const Logo = styled.div`
   cursor: pointer;
