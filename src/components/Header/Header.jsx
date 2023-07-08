@@ -1,23 +1,22 @@
 import React from 'react';
-import { ContainerHeader, Catalog, Logo, Search, Likes, BasketPage, RegisterPage } from "./Header.styled";
-import { BasicMenu } from "./../CatalogMenuHeader/CatalogMenuHeader";
+import { ContainerHeader, Catalog, Logo, Likes, BasketPage, RegisterPage } from "./Header.styled";
+import { CatalogMenuHeader } from "./../CatalogMenuHeader/CatalogMenuHeader";
+import SearchForm from '../common/SearchForm/SearchForm';
 
+const handleSearch = (searchQuery) => {
+  console.log('Search Query:', searchQuery);
+};
 
-export const Header = () => {
+export const Header = () => {   
     return (
         <ContainerHeader>
-            
-            <Catalog><BasicMenu />Каталог</Catalog>
+            <Catalog><CatalogMenuHeader />Каталог</Catalog>
             <Logo>LOGO</Logo>
-            <Search
-                type="search"
-                name="search"
-                placeholder="Пошук"
-                autoComplete="off"
-                onChange={() => { }}
-                value=""
-                />
-            
+            <SearchForm
+                labelText=""
+                inputPlaceholder="Пошук товарів"
+                buttonFunction={handleSearch}                
+            />
             <Likes>
                 <svg>
                     <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#heart`} />
