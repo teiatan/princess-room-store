@@ -7,7 +7,7 @@ const catalogCategories = [
   { id: 3, name: 'Category 3' },
 ];
 
-export function BasicMenu() {
+export function CatalogMenuHeader() {
   const [isCatalogMenuOpen, setIsCatalogMenuOpen] = useState(false);
 
   const handleClick = () => {
